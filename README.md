@@ -16,10 +16,5 @@ This repository includes structured sections covering fundamental and advanced t
 
 ## 🧠 Compilation
 
-The project is written using **LaTeX** and can be compiled with `pdfLaTeX` or on [Overleaf](https://www.overleaf.com/).
+📘 [View compiled notes (main.pdf)](https://emresezer.github.io/Astrophysics-Notes/main.pdf)
 
-**Main file:**  
-```bash
-main.tex
-
-📘 [View compiled notes (main.pdf)](https://github.com/emresezer/Astrophysics-Notes/raw/main/main.pdf)
