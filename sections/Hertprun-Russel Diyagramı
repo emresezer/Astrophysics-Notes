@@ -1,5 +1,5 @@
 \usepackage{graphicx}
-
+\section{Hidrojen Füzyonu}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{images/hr.png}
