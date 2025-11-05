@@ -1,0 +1,8 @@
+\usepackage{graphicx}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/hr.png}
+    \caption{Hertzprung-Russell diyagramında, yıldızların sıcaklıkları parlaklıklarına göre çizilmiştir. Bir yıldızın diyagramdaki konumu, mevcut durumu ve kütlesi hakkında bilgi verir. Hidrojeni helyuma dönüştüren yıldızlar, ana dizi adı verilen diyagonal kolda yer alır. AB Doradus C gibi kırmızı cüceler serin ve sönük köşede yer alır. AB Dor C'nin sıcaklığı yaklaşık 3.000 derecedir ve parlaklığı Güneş'in %0,2'si kadardır. Bir yıldız tüm hidrojenini tükettiğinde ana diziden ayrılır ve kütlesine bağlı olarak kırmızı dev veya süperdev olur (AB Doradus C çok az hidrojen yaktığı için ana diziden asla ayrılmaz). Güneş kütlesinde olup tüm yakıtlarını yakmış yıldızlar sonunda bir beyaz cüceye dönüşür (sol alt köşe). Kaynak: ESO}
+    \label{fig: Hertzprung-Russel Diyagramı}
+\end{figure}
