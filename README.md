@@ -6,8 +6,8 @@ Bu repository, astrofizik alanında hazırlanmış ders notları ve kaynakları 
 
 - **main.tex**: Ana LaTeX dosyası  
 - **preamble.tex**: LaTeX ön tanımları ve paketler  
-- **sections/**: Ders bölümleri ve konular  
-- **figures/**, **images/**: Derslerde kullanılan görseller  
+- **sections/**: Konu bölümleri 
+- **figures/**, **images/**: Kullanılan görseller  
 - **equations/**: Önemli formüller ve matematiksel ifadeler  
 - **tables/**: Tablo ve veriler  
 - **references.bib**: Kaynakça  
