@@ -1,0 +1,87 @@
+\section{Lagrange Noktaları ve Çift Yıldız Sistemlerindeki Önemi}
+
+Bir çift yıldız sistemi, birbirine kütleçekimsel olarak bağlı iki yıldızdan oluşur ve bu yıldızlar ortak kütle merkezi etrafında döner. Dönen referans çerçevesinde sistemin etkin potansiyeli, kütleçekimsel potansiyel ile merkezkaç potansiyelinin toplamı ile verilir. Bu etkin potansiyel,
+\textbf{Roche potansiyeli} olarak bilinir:
+
+\begin{equation}
+\Phi(\mathbf{r}) = -\frac{G M_1}{|\mathbf{r} - \mathbf{r_1}|} 
+                  -\frac{G M_2}{|\mathbf{r} - \mathbf{r_2}|}
+                  -\frac{1}{2}\omega^2 r_{\perp}^2
+\end{equation}
+
+Burada:
+\begin{itemize}
+    \item $M_1$ ve $M_2$: bileşen yıldızların kütleleri,
+    \item $\omega$: yörüngesel açısal hız,
+    \item $r_{\perp}$: dönme eksenine dik uzaklık.
+\end{itemize}
+
+Bu potansiyel içinde, net kuvvetin sıfır olduğu **beş adet denge noktası** bulunur. Bu bölgelere \textbf{Lagrange noktaları} denir.
+
+\subsubsection{L$_1$ Noktası (İç Lagrange Noktası)}
+L$_1$ noktası, iki yıldız arasında yer alır ve Roche lobları arasındaki \textbf{dar boğazı} oluşturur. Bir yıldız Roche lobunu doldurduğunda madde, bu noktadan diğer bileşene akar:
+
+\[
+\textbf{Kütle Transferinin Başlangıç Noktası: } L_1
+\]
+
+Dolayısıyla $L_1$, çift yıldızların evriminde **kritik** bir rol oynar ve RLOF (Roche Lobe Overflow) mekanizmasının fiziksel temelidir.
+
+\subsubsection{L$_2$ Noktası}
+L$_2$, daha büyük yıldızın arka tarafında yer alır. Eğer sistemde kütle transferi \textbf{kararsız} ise ve yıldızla birlikte gaz genişliyorsa, madde $L_2$'den dışarı akabilir.
+
+Bu durum \textbf{ortak zarf evriminin} (Common Envelope, CE) erken göstergelerinden biridir.
+
+\subsubsection{L$_3$ Noktası}
+L$_3$, ikinci yıldızın karşı tarafında, sistemin kütle merkeziyle aynı doğrultuda bulunur. Bu nokta genellikle kararsızdır ve gazın büyük ölçekli kaybına yol açabilir.
+
+\begin{itemize}
+    \item $L_3$'ten madde kaybı gerçekleşirse, sistem \textbf{yörünge açısal momentumu kaybeder}.
+\end{itemize}
+
+\subsubsection{L$_4$ ve L$_5$ Noktaları (Üçgen Noktaları)}
+Bu iki nokta, iki yıldızla birlikte eşkenar üçgen oluşturan konumlarda bulunur. 
+\[
+\angle L_4 M_1 M_2 = \angle L_5 M_1 M_2 = 60^\circ
+\]
+
+Bu noktalar yalnızca:
+\[
+\frac{M_1}{M_2} > 24.96 \quad \text{veya} \quad \frac{M_2}{M_1} > 24.96
+\]
+olduğunda \textbf{kararlıdır}.
+
+Eğer sistem kararlı ise:
+\begin{itemize}
+    \item Bu bölgelerde \textbf{toz, plazma ve küçük cisimler birikebilir}.
+    \item Yıldız çevresi \textbf{Lagrange toz halkaları} oluşturabilir.
+\end{itemize}
+
+\subsection{Roche Lobu ve Lagrange Geometrisi}
+
+Her yıldız, Roche potansiyeli içinde kendisine ait olan kapalı bir potansiyel yüzeyle sınırlanır. Bu yüzey \textbf{Roche lobu} olarak adlandırılır.
+
+Yaklaşık Roche lobu yarıçapı Eggleton bağıntısı ile ifade edilir:
+\begin{equation}
+\frac{R_{L}}{a} = \frac{0.49 q^{2/3}}{0.6 q^{2/3} + \ln(1 + q^{1/3})}
+\end{equation}
+
+Burada:
+\begin{itemize}
+    \item $R_L$: Roche lobu etkin yarıçapı,
+    \item $a$: yıldızlar arası yörünge yarıçapı,
+    \item $q = M_{\mathrm{donor}} / M_{\mathrm{accretor}}$: kütle oranı.
+\end{itemize}
+
+\textbf{Roche lobu taşması gerçekleştiğinde:}
+\[
+R_{\mathrm{donor}} \ge R_{L}
+\]
+madde $L_1$ üzerinden diğer yıldıza akar.
+
+Bu mekanizma:
+\begin{itemize}
+    \item Kütle transferini başlatır,
+    \item Yıldız evrimini dramatik biçimde değiştirir,
+    \item Tip Ia Süpernovalar, X-ışını ikilileri ve karadelik birikim disklerinin temel oluşum yoludur.
+\end{itemize}
