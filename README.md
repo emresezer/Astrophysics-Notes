@@ -16,7 +16,8 @@ Bu repository, astrofizik alanında hazırlanmış ders notları ve kaynakları 
 
 - Astrofizik konularını sistematik şekilde öğrenmek ve tekrar etmek  
 - Matematiksel ve teorik kavramları anlaşılır şekilde belgelemek  
-- Akademik çalışmalar ve araştırmalar için referans sağlamak  
+- Akademik çalışmalar ve araştırmalar için referans sağlamak
+- İlgili konularda Türkçe kaynak sağlamak  
 
 ## Kullanım
 
