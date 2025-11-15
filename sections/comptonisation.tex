@@ -1,0 +1,188 @@
+\section{Comptonisation}
+
+Comptonisation, fotonların yüksek enerjili elektronlarla çoklu saçılmalar geçirmesi sonucunda ortalama enerjilerinin sistematik olarak artması ya da azalması sürecidir. Bu mekanizma özellikle X ışını ve gama ışını astrofiziğinde, akresyon disklerinin korona bölgelerinde ve sıcak plazmalarda tayfın sertleşmesine yol açan temel süreçlerden biridir.
+
+\subsection{Temel Mekanizma}
+
+Bir fotonun bir elektron tarafından saçılması Klein–Nishina veya Thomson rejiminde gerçekleşir. Enerji kazanımı, elektronların termal veya non-termal enerji dağılımına bağlıdır.
+
+Tek saçılma için ortalama enerji değişimi:
+
+\[
+\Delta E \approx \frac{4kT_e - E}{m_e c^2} E
+\]
+
+\paragraph{Semboller:}
+\begin{itemize}
+    \item $E$: saçılmadan önceki foton enerjisi.
+    \item $T_e$: elektron sıcaklığı.
+    \item $k$: Boltzmann sabiti.
+    \item $m_e$: elektron kütlesi.
+\    \item $c$: ışık hızı.
+\end{itemize}
+
+$4kT_e > E$ ise fotonlar enerji kazanır ve süreç \textit{inverse Comptonisation} olarak adlandırılır.
+
+\subsection{Compton $y$ Parametresi}
+
+Comptonisation’ın gücünü belirleyen boyutsuz büyüklük:
+
+\[
+y = \frac{4kT_e}{m_e c^2} \max(\tau,\, \tau^2)
+\]
+
+\paragraph{Semboller:}
+
+\begin{itemize}
+    \item $y$: Compton güç parametresi.
+    \item $T_e$: elektron sıcaklığı.
+    \item $\tau$: elektronların optik derinliği.
+\end{itemize}
+
+$y \ll 1$ için Comptonisation zayıf olup fotonların enerjisi az değişir.  
+$y \gtrsim 1$ için foton tayfı belirgin şekilde sertleşir.
+
+\subsection{Komphton Tayfı ve Enerji Dağılımı}
+
+Çoklu saçılmalar altında foton tayfı yaklaşık olarak bir güç yasası formuna yaklaşır:
+
+\[
+n(E) \propto E^{-\alpha}
+\]
+
+Burada foton indeksinin Compton parametresi ile ilişkisi:
+
+\[
+\alpha = -\frac{3}{2} + \sqrt{\frac{9}{4} + \frac{4}{y}}
+\]
+
+Bu sonuç, yüksek $y$ değerlerinin daha sert (daha düşük $\alpha$) bir tayfa karşılık geldiğini gösterir.
+
+\subsection{Termal Comptonisation}
+
+Elektronların Maxwell–Boltzmann dağılımına sahip olduğu bir plazmada fotonlar:
+
+\[
+E_{\mathrm{out}} \approx E_{\mathrm{in}}\, e^{y}
+\]
+
+şeklinde ortalama bir enerji artışı yaşar.
+
+Termal Comptonisation, X ışını ikili sistemlerinde korona adı verilen sıcak ($T_e \sim 10^8$–$10^9\,\mathrm{K}$) bölgelerde gözlenen tipik güç yasası tayfını üretir.
+
+\subsection{Non-termal Comptonisation}
+
+Elektron popülasyonu bir güç yasası dağılımı ile tanımlandığında:
+
+\[
+N(E_e) \propto E_e^{-p}
+\]
+
+ortaya çıkan inverse Compton tayfı:
+
+\[
+L_\nu \propto \nu^{-(p-1)/2}
+\]
+
+şeklinde synchrotron mekanizmasına benzer bir güç yasası yapısı gösterir.
+
+\subsection{Astrofiziksel Ortamlar}
+
+\begin{itemize}
+    \item Kara delik ve nötron yıldızı akresyon disklerinin sıcak korona bölgeleri.
+    \item AGN (aktif galaksi çekirdeği) korona ve jet yapıları.
+    \item Mikro-kuasar jetleri.
+    \item Kozmik mikrodalga arka planı ile yüksek enerjili elektronların etkileşimi.
+    \item Pulsar rüzgar bulutsuları ve şok bölgeleri.
+\end{itemize}
+
+
+\subsection{Ters Kompton Saçılması}
+
+Ters Kompton saçılması (inverse Compton scattering), yüksek enerjili elektronların düşük enerjili fotonlara çarpması sonucunda fotonların enerji kazanarak daha yüksek frekanslara (genellikle X-ışını veya gamma bölgesine) çıkmasıdır. Astrofizikte yüksek enerjili foton üretiminin temel mekanizmalarından biridir.
+
+Bu süreç özellikle şu ortamlarda kritik öneme sahiptir:
+
+\begin{itemize}
+    \item Aktif galaktik çekirdeklerin jetleri,
+    \item Pulsar rüzgâr bulutsuları,
+    \item Süpernova kalıntıları,
+    \item Kozmik mikrodalga arka plan fotonlarının yüksek enerjili elektronlarla çarpışması (Sunyaev-Zel'dovich etkisi),
+    \item X-ışını ikilileri (korona + disk etkileşimi).
+\end{itemize}
+
+\subsubsection*{Temel Fiziksel Mekanizma}
+
+Bir elektronun fotona enerji aktarımı aşağıdaki temel bağıntıyla ifade edilir:
+
+\[
+E'_{\gamma} \approx \gamma^{2} E_{\gamma}
+\]
+
+\textbf{Açıklamalar:}
+\begin{itemize}
+    \item \( E_{\gamma} \): saçılmadan önceki foton enerjisi,
+    \item \( E'_{\gamma} \): saçılma sonrası foton enerjisi,
+    \item \( \gamma = \frac{1}{\sqrt{1-\beta^{2}}} \): elektronun Lorentz faktörü,
+    \item \( \beta = v/c \): elektron hızının ışık hızına oranı.
+\end{itemize}
+
+Bu bağıntı ters Kompton sürecinin temel karakterini açıklar: fotonun enerjisi, elektronun Lorentz faktörünün karesi ile çarpılarak büyür. Dolayısıyla relativistik elektron popülasyonları bu mekanizmada belirleyici olur.
+
+\subsubsection*{Klein–Nishina Rejimi ve Thomson Rejimi}
+
+Ters Kompton saçılması iki rejimde incelenir:
+
+\begin{itemize}
+    \item \textbf{Thomson Rejimi:}
+    \[
+    E_{\gamma} \ll m_{e}c^{2}
+    \]
+    Foton elektronla etkileşirken enerjisi elektronun dinlenim enerjisinden çok küçüktür. Çapraz kesit klasik Thomson çapraz kesiti ile verilir:
+    \[
+    \sigma_{T} = \frac{8\pi}{3} r_{e}^{2}
+    \]
+    Burada \( r_{e} \) elektronun klasik yarıçapıdır.
+
+    \item \textbf{Klein–Nishina Rejimi:}
+    \[
+    E_{\gamma} \sim m_{e}c^{2}
+    \]
+    Foton enerjisi elektronun dinlenim enerjisine yaklaşır, relativistik düzeltmeler gerekir. Klein–Nishina saçılma çapraz kesiti kullanılır.
+\end{itemize}
+
+\subsubsection*{Spektral Özellikler}
+
+Elektron enerjileri bir güç kanunu dağılımı izliyorsa:
+\[
+N(E_{e}) \propto E_{e}^{-p}
+\]
+
+Ters Kompton yayınımının spektrumu da yaklaşık bir güç kanunu alır:
+\[
+L_{\nu} \propto \nu^{-(p-1)/2}
+\]
+
+Bu, synchrotron radyasyonu ile aynı elektron popülasyonunun üretmesi durumunda iki spektrum arasında doğrudan ilişki kurulabileceği anlamına gelir.
+
+\subsubsection*{Astrofizikte Kullanım Alanları}
+
+\begin{itemize}
+    \item Jetlerdeki yüksek enerjili elektronların düşük enerjili disk fotonlarını X-ışınlarına yükseltmesi,
+    \item Kozmik mikrodalga arka plan fotonlarının kümeler tarafından enerjilendirilmesi (SZ etkisi),
+    \item Pulsar rüzgar bulutsularında elektron-popülasyon tanımlaması,
+    \item Disk-korona modellerinde X-ışını spektrumunun yüksek enerjili kuyruğunu açıklama.
+\end{itemize}
+
+\subsubsection*{Enerji Kazancı}
+
+Enerji aktarımının maksimum olduğu durum:
+\[
+E'_{\gamma, \max} \approx \frac{4}{3}\gamma^{2} E_{\gamma}
+\]
+
+Bu bağıntı, elektronun relativistik doğasının foton enerjisi üzerinde nasıl dramatik bir etki yarattığını gösterir.
+
+```tex
+%% Fiziksel Yorum – Not İçinde Kullanmak İçin: 
+%% Bu konu özellikle X-ışını astrofiziği, AGN jetleri ve CMB-çevrimli foton artışları açısından doktora seviyesinde sıkça karşılaşılan temel mekanizmadır.

@@ -1,0 +1,68 @@
+\section{Kara Cisim Işıması}
+
+Kara cisim, tüm elektromanyetik ışınımı absorbe eden ve dalga boyuna bağımlı olarak maksimum radyasyon yayan ideal bir cisimi ifade eder. Astrofizikte yıldızlar ve sıcak plazma bölgeleri, yaklaşık kara cisim davranışı gösterir.
+
+\subsubsection{Planck Yasası}
+
+Bir kara cismin birim yüzey alanı ve birim frekans başına yaydığı enerji akısı yoğunluğu Planck yasası ile verilir:
+
+\[
+B_\nu(T) = \frac{2 h \nu^3}{c^2} \frac{1}{e^{h\nu / kT} - 1}
+\]
+
+\paragraph{Semboller:}
+\begin{itemize}
+    \item $B_\nu(T)$: birim yüzey alanı başına birim frekansta yayılan enerji (W/m$^2$/Hz).
+    \item $h$: Planck sabiti, $6.626 \times 10^{-34}\ \mathrm{J\,s}$.
+    \item $\nu$: frekans (Hz).
+    \item $c$: ışık hızı, $3.0 \times 10^8\ \mathrm{m/s}$.
+    \item $k$: Boltzmann sabiti, $1.38 \times 10^{-23}\ \mathrm{J/K}$.
+    \item $T$: cismin mutlak sıcaklığı (K).
+\end{itemize}
+
+\subsubsection{Stefan-Boltzmann Yasası}
+
+Kara cismin toplam yayımladığı enerji yüzey birimi başına, sıcaklığın dördüncü kuvvetiyle orantılıdır:
+
+\[
+F = \sigma T^4
+\]
+
+\paragraph{Semboller:}
+\begin{itemize}
+    \item $F$: birim yüzey alanından yayılan toplam enerji akısı (W/m$^2$).
+    \item $\sigma$: Stefan-Boltzmann sabiti, $5.670 \times 10^{-8}\ \mathrm{W\,m^{-2}\,K^{-4}}$.
+    \item $T$: cismin mutlak sıcaklığı.
+\end{itemize}
+
+\subsubsection{Wien Yasası}
+
+Kara cismin radyasyon yoğunluğu maksimuma ulaştığı dalga boyu, sıcaklığı ile ters orantılıdır:
+
+\[
+\lambda_{\max} = \frac{b}{T}
+\]
+
+\paragraph{Semboller:}
+\begin{itemize}
+    \item $\lambda_{\max}$: maksimum yayınım dalga boyu (m).
+    \item $T$: cismin sıcaklığı (K).
+    \item $b$: Wien sabiti, $2.898 \times 10^{-3}\ \mathrm{m\,K}$.
+\end{itemize}
+
+\subsubsection{Astrofizik Uygulamaları}
+
+\begin{itemize}
+    \item Yıldızların yüzey sıcaklıkları, radyasyon spektrumu kara cisim modeli ile tahmin edilir.
+    \item X ışını kaynaklarının termal yayınımı, yüksek sıcaklıklı plazma ile kara cisim yaklaşımı kullanılarak modellenir.
+    \item Galaksi kümelerindeki sıcak iyonize gazın sürekli X ışını yayınımı, yaklaşık kara cisim davranışı ile analiz edilebilir.
+\end{itemize}
+
+\begin{figure}[ht!]
+    \centering
+    \resizebox{0.7\textwidth}{!}{\includegraphics{figures/black_body.png}}
+    \caption{Siyah bir cismin sıcaklığı azaldıkça, yayılan termal radyasyonun yoğunluğu azalır ve maksimum değeri daha uzun dalga boylarına doğru hareket eder. Karşılaştırma için klasik Rayleigh-Jeans yasası ve onun ultraviyole felaketi gösterilmiştir. Planck sonrası çeşitli sıcaklıklar için siyah cisim spektral ışıma eğrileri ve klasik Rayleigh-Jeans teorisiyle karşılaştırma (cgs birimi cinsinden). 
+    Darth Kule - Kendi Çalışması
+    }
+    \label{fig:HRD}
+\end{figure}
